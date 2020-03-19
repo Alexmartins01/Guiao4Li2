@@ -17,8 +17,10 @@ void soma_elemento(){
     for(int i=0;i<d;i++){
         scanf("%d",&a[i]);
     }
-    printf("Insira o valor a somar\n");
+    printf("Insira o Indice\n");
     scanf("%d",&id);
+    id--;
+    id=a[id];
     for(int u=0;u<d;u++){
         a[u]=a[u]+id;
     }
